@@ -11,47 +11,67 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
   </head>
   <body>
-      <div class="row">
-        <div class="column" style="background-color:#FFB695;">
-            <div id="student-info">
-            <h1>Arjun Ramesh</h1>
-            <p>My favorite color is blue and I wear Chuck Taylors.</p>
-            </div>
-            <div id="data-input"></div>
-                <h1>Font Styler</h1>
-                <form>
-                    <label>Font Size</label><br>
-                        <input type="number" id="input-size" name="font-size" placeholder="16"><br><br>
-                    <label>Font Family</label><br>
-                        <select id="select-font" name="font-family">
-                            <option>Helvetica</option>
-                            <option>Arial</option>
-                            <option>Times New Roman</option>
-                            <option>Georgia</option>
-                        </select><br><br>
-                    <label>Font Color</label><br>
-                        <input type="color" id="input-color" value="#000" name="font-color"><br><br>
-                    <label>Background Color</label><br>
-                        <input type="color" id="input-bg-color" value="#fff" name="background-color"><br><br>
-                    <label>Enter Text</label><br>
-                        <textarea id="enter-text" placeholder="Sample Text" ></textarea>
-                </form>
+    <!-- Parent container here. -->
+    <div class="row">
+      <!-- Child 1 -->
+      <div class="column" style="background-color: #ffb695">
+        <div id="student-info">
+          <h1>Arjun Ramesh</h1>
+          <p>My favorite color is blue and I wear Chuck Taylors.</p>
         </div>
-      <!-- <div class="row"> -->
-        <div class="column" style="background-color:#96D1CD;">
-            <div id="headline-display"></div>
-                <h1 id="display">Sample Text</h1>
-            <div id="data-output"></div>
-            <h2>Font Settings</h2>
-            <pre><code>.headline {
+        <div id="data-input"></div>
+        <h1>Font Styler</h1>
+        <form>
+          <label>Font Size</label><br />
+          <input
+            type="number"
+            id="input-size"
+            name="font-size"
+            placeholder="16"
+          /><br /><br />
+          <label>Font Family</label><br />
+          <select id="select-font" name="font-family">
+            <option>Helvetica</option>
+            <option>Arial</option>
+            <option>Times New Roman</option>
+            <option>Georgia</option></select
+          ><br /><br />
+          <label>Font Color</label><br />
+          <input
+            type="color"
+            id="input-color"
+            value="#000"
+            name="font-color"
+          /><br /><br />
+          <label>Background Color</label><br />
+          <input
+            type="color"
+            id="input-bg-color"
+            value="#fff"
+            name="background-color"
+          /><br /><br />
+          <label>Enter Text</label><br />
+          <textarea id="enter-text" placeholder="Sample Text"></textarea>
+        </form>
+      </div>
+
+      <!-- Child 2 -->
+      <div class="column" style="background-color: #96d1cd">
+        <div id="headline-display"></div>
+        <h1 id="display">Sample Text</h1>
+        <div id="data-output"></div>
+        <h2>Font Settings</h2>
+        <pre><code>.headline {
                 font-size: <span id="show-size">16</span>px;
                 font-family: <span id="show-font">Times</span>;
                 color: <span id="show-color">#000</span>;
                 background-color: <span id="show-bg-color">#fff</span>;
             }</code></pre>
-        </div>
       </div>
-      
+      <!-- End of parent container here. -->
+    </div>
+
+    <!-- Link JavaScript here. -->
     <script src="script.js"></script>
   </body>
 </html>

@@ -17,7 +17,7 @@
 .row:after {
   display: table;
   clear: both;
-  border-style: solid;
+  /* border-style: solid; */
 }
 
 h1 {
