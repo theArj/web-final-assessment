@@ -23,7 +23,7 @@
             <input type="number" id="input-size" name="font-size"><br><br></input>
             <label for="font-family">Font Family</label>
             <select id="select-font" name="font-family"><br><br>
-                <option>Helvetic</option>
+                <option>Helvetica</option>
                 <option>Arial</option>
                 <option>Times New Roman</option>
                 <option>Georgia</option>
@@ -33,10 +33,16 @@
             <label for="background-color">Background Color</label>
             <input type="color" id="input-bg-color" value="#fff" name="background-color"><br><br></input>
             <label for="enter-text">Enter Text</label>
-            <textarea type="number" id="enter-text" ></textarea>
+            <textarea type="number" id="enter-text" placeholder="Sample Text" ></textarea>
           </form>
     <div id="headline-display"></div>
           <h1 id="display"></h1>
     <div id="data-output"></div>
+    <pre><code>.headline {
+        font-size: <span id="show-size">16</span>px;
+        font-family: <span id="show-font">Times</span>;
+        color: <span id="show-color">#000</span>;
+        background-color: <span id="show-bg-color">#fff</span>;
+    }</code></pre>
   </body>
 </html>
