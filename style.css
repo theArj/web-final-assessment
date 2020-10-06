@@ -1,5 +1,12 @@
-.row {
-    display: flex-start;
+{
+  box-sizing: border-box;
+}
+
+#headline-display {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
 }
 
 .column {
