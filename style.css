@@ -1,28 +1,20 @@
-#input-container {
+.row {
     display: flex-start;
-    float: left;
-    width: 50%;
-}
-
-#output-container {
-    display: flex-end;
-    float: right;
-    width: 50%;
 }
 
 .column {
-    /* display: flex; */
-    float: left;
-    width: 50%;
-    /* border: black; */
-    border-radius: 5px;
+  /* display: flex; */
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-
-#data-input {
-    border-radius: 5px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
 }
