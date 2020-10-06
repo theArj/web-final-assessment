@@ -20,29 +20,28 @@
             <div id="data-input"></div>
                 <h1>Font Styler</h1>
                 <form>
-                    <label for="font-size">Font Size</label><br>
-                        <input type="number" id="input-size" name="font-size" placeholder="16"><br><br></input>
-                    <label for="font-family">Font Family</label><br>
-                        <select id="select-font" name="font-family"><br><br>
+                    <label>Font Size</label><br>
+                        <input type="number" id="input-size" name="font-size" placeholder="16"><br><br>
+                    <label>Font Family</label><br>
+                        <select id="select-font" name="font-family">
                             <option>Helvetica</option>
                             <option>Arial</option>
                             <option>Times New Roman</option>
                             <option>Georgia</option>
                         </select><br><br>
-                    <label for="font-color">Font Color</label><br>
+                    <label>Font Color</label><br>
                         <input type="color" id="input-color" value="#000" name="font-color"><br><br>
-                    <label for="background-color">Background Color</label><br>
-                        <input type="color" id="input-bg-color" value="#fff" name="background-color"><br><br></input>
-                    <label for="enter-text">Enter Text</label><br>
-                        <textarea type="text" id="enter-text" placeholder="Sample Text" ></textarea>
+                    <label>Background Color</label><br>
+                        <input type="color" id="input-bg-color" value="#fff" name="background-color"><br><br>
+                    <label>Enter Text</label><br>
+                        <textarea id="enter-text" placeholder="Sample Text" ></textarea>
                 </form>
         </div>
       <!-- <div class="row"> -->
         <div class="column" style="background-color:#96D1CD;">
             <div id="headline-display"></div>
-                <h1 id="display"></h1>
+                <h1 id="display">Sample Text</h1>
             <div id="data-output"></div>
-            <h1>Sample Text</h1>
             <h2>Font Settings</h2>
             <pre><code>.headline {
                 font-size: <span id="show-size">16</span>px;
@@ -53,6 +52,6 @@
         </div>
       </div>
       
-    <script scr="script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
